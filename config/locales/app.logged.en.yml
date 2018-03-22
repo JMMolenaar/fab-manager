@@ -11,7 +11,7 @@ en:
         some_data_may_have_already_been_provided_by_provider_and_cannot_be_modified: "Some data may have already been provided by {{NAME}} and cannot be modified"  # angular interpolation
         then_click_on_: "Then click on"
         _to_start_using_the_application: "to start using the application"
-        new_on_this_platform: "New on this platform?"
+        new_on_this_platform: "New to this site?"
         your_email_: "Your email"
         _is_currently_associated_with_another_account_on_this_platform: "is currently associated with another account on this platform."
         please_click_to_change_email_associated_with_your_PROVIDER_account: "If it is not yours, please click on the following button to change the email associated with your {{PROVIDER}} account."  # angular interpolation
@@ -59,9 +59,9 @@ en:
           collaborator: "Collaborator"
         trainings:
           # dashboard: my trainings
-          your_next_trainings: "Your next trainings"
-          your_previous_trainings: "Your previous trainings"
-          your_approved_trainings: "Your approved trainings"
+          your_next_trainings: "Your next training"
+          your_previous_trainings: "Your previous training"
+          your_approved_trainings: "Your approved training"
         events:
           # dashboard: my events
           your_next_events: "Your next events"
@@ -79,7 +79,7 @@ en:
 
       members:
         # list of members accepting to be contacted
-        the_fablab_members: "The Fab Lab members"
+        the_fablab_members: "The Tufts Maker Network members"
         display_more_members: "Display more members..."
         no_members_for_now: "No members for now"
         avatar: "Avatar"

@@ -3,9 +3,9 @@ en:
     admin:
       machines_new:
         # add a new machine
-        declare_a_new_machine: "Declare a new machine"
-        watch_out_when_creating_a_new_machine_its_prices_are_initialized_at_0_for_all_subscriptions: "Watch out! When creating a new machine, its prices are initialized at 0 for all subscriptions."
-        consider_changing_them_before_creating_any_reservation_slot: "Consider changing them before creating any reservation slot."
+        declare_a_new_machine: "Create a new machine"
+        watch_out_when_creating_a_new_machine_its_prices_are_initialized_at_0_for_all_subscriptions: "Warning! When creating a new machine, its prices are initialized at 0 for all subscriptions."
+        consider_changing_them_before_creating_any_reservation_slot: "Consider changing them before creating any reservation options."
 
       machines_edit:
         # machine edition
@@ -15,10 +15,10 @@ en:
         # manage the trainings & machines slots
         admin_calendar:
           calendar_management: "Calendar management"
-          trainings: "Trainings"
+          trainings: "Training"
           machines: "Machines"
           spaces: "Spaces"
-          availabilities: "Availabilities"
+          availabilities: "Availability"
           availabilities_notice: "Export to an Excel workbook every slots available for reservation, and their occupancy rate."
           ongoing_reservations: "Ongoing reservations"
           no_reservations: "No reservations"
@@ -31,7 +31,7 @@ en:
           this_will_prevent_any_new_reservation_on_this_slot_but_wont_cancel_those_existing: "This will prevent any new reservation on this slot but won't cancel those existing."
           beware_this_cannot_be_reverted: "Beware: this cannot be reverted."
           the_machine_was_successfully_removed_from_the_slot: "The machine was successfully removed from the slot."
-          deletion_failed: "Deletion failed."
+          deletion_failed: "Removal failed."
           DATE_slot: "{{DATE}} slot:"  # angular interpolation
           what_kind_of_slot_do_you_want_to_create: "What kind of slot do you want to create?"
           training: "Training"
@@ -39,7 +39,7 @@ en:
           space: "Space"
           next: "Next >"
           previous: "< Previous"
-          select_some_machines: "Select some machines"
+          select_some_machines: "Select machines"
           number_of_tickets: "Number of tickets: "
           adjust_the_opening_hours: "Adjust the opening hours"
           to_time: "to"  # context: time. eg. "from 18:00 to 21:00"
@@ -64,8 +64,8 @@ en:
 
       project_elements:
         # management of the projects' components
-        projects_elements_management: "Projects elements management"
-        add_a_material: "Add a material"
+        projects_elements_management: "Project element management"
+        add_a_material: "Add material"
         add_a_new_theme: "Add a new theme"
         licences: "Licences"
         add_a_new_licence: "Add a new licence"
@@ -153,7 +153,7 @@ en:
       events_new:
         # add a new event
         none: "None"
-        every_days: "Every days"
+        every_days: "Every day"
         every_week: "Every week"
         every_month: "Every month"
         every_year: "Every year"
