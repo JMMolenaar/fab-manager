@@ -3,20 +3,20 @@ en:
     notifications_mailer:
       see_you_later: "See you soon on {GENDER, select, other{the}}"  # messageFormat interpolation
       sincerely: "Sincerely,"
-      signature: "The Fab Lab team."
+      signature: "The Tufts Maker team."
       do_not_reply: "Please do not reply to this email."
 
   users_mailer:
     notify_user_account_created:
-      subject: "Your FabLab account has been successfully created"
+      subject: "Your Tufts Maker account has been successfully created"
       body:
         hello: "Hello %{NAME},"
-        intro: "The FabLab team has just created an account for you, on the {FABLAB} website:"  # messageFormat interpolation
+        intro: "The Tufts Maker team has just created an account for you, on the {FABLAB} website:"  # messageFormat interpolation
         connection_parameters: "Here are your connection parameters:"
         account_name: "Account name:"
         password: "Password:"
         temporary_password: "This is a temporary password, you can modify it in your «My account» screen."
-        keep_advantages: "With this account, you keep all the advantages linked to your Fab Lab user profile (trainings, subscriptions plans)."
+        keep_advantages: "With this account, you keep all the advantages linked to your Tufts Maker user profile (trainings, subscriptions plans)."
         thanks_to_: "To use the website, please"
         logon_or_login: "create a new account or log in by clicking here"
         token_if_link_problem: "If you experience issues with the link, you can enter the following code at your first connection attempt:"
@@ -97,20 +97,20 @@ en:
       subject: "New reservation"
       body:
         member_reserved_html: "User %{NAME} has reserved <strong><em>%{RESERVABLE}</em></strong>."
-        reserved_slots: "Reserved slots are:"
+        reserved_slots: "Reserved times are:"
 
     notify_member_slot_is_modified:
-      subject: "Your reservation slot has been successfully changed"
+      subject: "Your reservation time has been successfully changed"
       body:
-        reservation_changed_to: "Your reservation slot has been changed to:"
+        reservation_changed_to: "Your reservation time has been changed to:"
         previous_date: "Previous date:"
 
     notify_admin_slot_is_modified:
-      subject: "A reservation slot has been modified"
+      subject: "A reservation time has been modified"
       body:
-        slot_modified: "User %{NAME} had modified his reservation slot"
-        new_date: "New slot"
-        old_date: "Previous slot"
+        slot_modified: "User %{NAME} had modified his reservation time"
+        new_date: "New time"
+        old_date: "Previous time"
 
     notify_admin_when_user_is_created:
       subject: "A user account has been created"
@@ -125,10 +125,10 @@ en:
         plan_subscribed_html: "A plan <strong><em>%{PLAN}</em></strong> has been subscribed by user <strong><em>%{NAME}</strong></em>."
 
     notify_member_invoice_ready:
-      subject: "Your FabLab's invoice"
+      subject: "Your invoice"
       body:
         please_find_attached_html: "Please find as attached file your invoice from {DATE}, with an amount of {AMOUNT} concerning your {TYPE, select, Reservation{reservation} other{subscription}}."  # messageFormat interpolation
-        invoice_in_your_dashboard_html:  "You can access your invoice in %{DASHBOARD} on the Fab Lab website."
+        invoice_in_your_dashboard_html:  "You can access your invoice in %{DASHBOARD} on the Tufts Maker website."
         your_dashboard: "your dashboard"
 
     notify_member_reservation_reminder:
@@ -138,7 +138,7 @@ en:
         this_reservation_concerns_the_following_slots: "This reservation concerns the following slots:"
 
     notify_member_avoir_ready:
-      subject: "Your FabLab's refund invoice"
+      subject: "Your refund invoice"
       body:
         please_find_attached_html: "Please find as attached file your refund invoice from {DATE}, with an amount of {AMOUNT} concerning your {TYPE, select, Reservation{reservation} WalletTransaction{wallet credit} other{subscription}}."  # messageFormat interpolation
         invoice_in_your_dashboard_html: "You can access your refund invoice in %{DASHBOARD} on the Fab Lab website."
@@ -208,12 +208,12 @@ en:
         message: "Your account informations has been correctly updated, you now have access to the whole website."
 
     notify_user_auth_migration:
-      subject: "Important change to your FabLab account"
+      subject: "Important change to your account"
       body:
         the_platform: "the website"
         is_changing_its_auth_system_and_will_now_use: "is actually changing its user identification system and will use"
         instead_of: "instead of"
-        consequence_of_the_modification: "Because of this change you won't be able to login to the website with your actual usernames"
+        consequence_of_the_modification: "Because of this change you won't be able to login to the website with your actual username"
         to_use_the_platform_thanks_for: "To keep on using the website, please"
         create_an_account_on: "create an account on"
         or_use_an_existing_account_clicking_here: "or use an existing account by clicking here"
@@ -233,7 +233,7 @@ en:
         provider_id: "its provider ID is:"
 
     notify_admin_abuse_reported:
-      subject: "An abusive content has been reported"
+      subject: "Abusive content has been reported"
       body:
         intro: "A user has flagged a content as abusive"
         signaled_content: "flagged content:"
@@ -249,14 +249,14 @@ en:
         enabled: "From now on, all payments made by this user at the reception will lead to invoicing issuing. "
 
     notify_user_wallet_is_credited:
-      subject: "Your wallet has been credited"
+      subject: "Your online wallet has been credited"
       body:
-        wallet_credit_html: "Your wallet has been credited %{AMOUNT} by administrator."
+        wallet_credit_html: "Your online wallet has been credited %{AMOUNT} by administrator."
 
     notify_admin_user_wallet_is_credited:
-      subject: "The wallet of an user has been credited"
+      subject: "The online wallet of an user has been credited"
       body:
-        wallet_credit_html: "The wallet of member %{USER} has been credited %{AMOUNT} by administrator %{ADMIN}."
+        wallet_credit_html: "The online wallet of member %{USER} has been credited %{AMOUNT} by administrator %{ADMIN}."
 
     notify_admin_export_complete:
       subject: "Export completed"
@@ -268,11 +268,11 @@ en:
         statistics_machine: "of statistics about machine hours"
         statistics_project: "of statistics about projects"
         statistics_subscription: "of subscription statistics"
-        statistics_training: "of statistics about trainings"
+        statistics_training: "of statistics about training"
         statistics_space: "of statistics about spaces"
-        users_members: "of the members' list"
-        users_subscriptions: "of the subscriptions' list"
-        users_reservations: "of the reservations' list"
+        users_members: "of the list of members"
+        users_subscriptions: "of the list of subscriptions"
+        users_reservations: "of the list of reservations"
         availabilities_index: "of the reservations availabilities"
         click_to_download: "Excel file generated successfully. To download it, click"
         here: "here"

@@ -54,16 +54,16 @@ en:
   availabilities:
     # availability slots in the calendar
     not_available: "Not available"
-    i_ve_reserved: "I've reserved"
+    i_ve_reserved: "Reserved made"
     must_be_at_least_1_hour_after_the_start_date: "must be at least 1 hour after the start date"
     must_be_associated_with_at_least_1_machine: "must be associated with at least 1 machine"
 
   members:
     # members management
-    unable_to_change_the_group_while_a_subscription_is_running: "Unable to change the group while a subscription is running"
+    unable_to_change_the_group_while_a_subscription_is_running: "Unable to change the group while a subscription is active"
     please_input_the_authentication_code_sent_to_the_address: "Please input the authentication code sent to the e-mail address %{EMAIL}"
     your_authentication_code_is_not_valid: "Your authentication code is not valid."
-    current_authentication_method_no_code: "The current authentication method does not require any migration code"
+    current_authentication_method_no_code: "The current authentication method does not require any code"
     requested_account_does_not_exists: "The requested account does not exist"
 
   invoices:
@@ -107,9 +107,9 @@ en:
     by_transfer: "by transfer"
     by_cash: "by cash"
     no_refund: "No refund"
-    by_wallet: "by wallet"
+    by_wallet: "by online wallet"
     settlement_by_debit_card: "Settlement by debit card"
-    settlement_done_at_the_reception: "Settlement done at the reception"
+    settlement_done_at_the_reception: "Payment processed at the front desk"
     settlement_by_wallet: "Settlement by wallet"
     on_DATE_at_TIME: "on %{DATE} at %{TIME},"
     for_an_amount_of_AMOUNT: "for an amount of %{AMOUNT}"
@@ -121,7 +121,7 @@ en:
 
   trainings:
     # training availabilities
-    i_ve_reserved: "I've reserved"
+    i_ve_reserved: "Reservation made"
     completed: "Full"
 
   events:
@@ -212,7 +212,7 @@ en:
     notifications:
       # internal app notifications
       notify_admin_abuse_reported:
-        an_abuse_was_reported_on_TYPE_ID_NAME_html: "An abuse was reported on <strong>%{TYPE} %{ID}: <em>%{NAME}</em></strong>."
+        an_abuse_was_reported_on_TYPE_ID_NAME_html: "Abuse was reported on <strong>%{TYPE} %{ID}: <em>%{NAME}</em></strong>."
       notify_admin_invoicing_changed:
         invoices_generation_was_STATUS_for_user_NAME_html: "Invoices generation was <strong>{STATUS, select, true{disabled} other{enabled}}</strong> for user {NAME}."  # messageFormat interpolation
       notify_admin_member_create_reservation:
@@ -222,7 +222,7 @@ en:
       notify_admin_slot_is_canceled:
         USER_s_reservation_on_the_DATE_was_cancelled_remember_to_generate_a_refund_invoice_if_applicable_html: "<strong><em>%{USER}</em></strong>'s reservation, on the %{DATE}, was cancelled. Remember to generate a refund invoice if applicable."
       notify_admin_slot_is_modified:
-        a_booking_slot_was_modified: "A booking slot was modified."
+        a_booking_slot_was_modified: "A booking time was modified."
       notify_admin_subscribed_plan:
         subscription_PLAN_has_been_subscribed_by_USER_html: "Subscription <strong><em>%{PLAN}</em></strong> has been subscribed by <strong><em>%{USER}</strong></em>."
       notify_admin_subscription_canceled:
@@ -250,7 +250,7 @@ en:
       notify_member_slot_is_canceled:
         your_reservation_RESERVABLE_of_DATE_was_successfully_cancelled: "Your reservation %{RESERVABLE} of %{DATE} was successfully cancelled."
       notify_member_slot_is_modified:
-        your_reservation_slot_was_successfully_changed: "Your reservation slot was successfully changed."
+        your_reservation_slot_was_successfully_changed: "Your reservation time was successfully changed."
       notify_member_subscribed_plan:
         you_have_subscribed_to_PLAN_html: "You have subscribed tp <strong><em>%{PLAN}</em></strong>."
       notify_member_subscribed_plan_is_changed:
@@ -311,9 +311,9 @@ en:
   statistics:
     # statistics tools for admins
     subscriptions: "Subscriptions"
-    machines_hours: "Machines hours"
+    machines_hours: "Machine hours"
     spaces: "Spaces"
-    trainings: "Trainings"
+    trainings: "Training"
     events: "Events"
     registrations: "Registrations"
     projects: "Projects"
@@ -329,7 +329,7 @@ en:
     components: "Components"
     machines: "Machines"
     user_id: "User ID"
-    bookings: "Bookings"
+    bookings: "Reservations"
     hours_number: "Hours number"
     tickets_number: "Tickets number"
     revenue: "Revenue"
